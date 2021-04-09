@@ -4,46 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css".css">
+    <link rel="stylesheet" href="responsive.css">
     <title>Instagram</title>
 </head>
-<body>
-    <div class="conteudo">
-        <div class="imagem-celular">
-            <img src="img/instagram-celular.png" alt="celular" >
+<body id="corpo">
+    <div class="wrapper">
+        <div id="botao-toogle">
+            <input onclick="on(this)" type="checkbox" id="toogle">
+            <label for="toogle"></label>
         </div>
-        <div class="login-conteudo">
-            <div class="grupo">
-                <img src="img/instagram-logo.png" alt="instagram logo" class="instagram-logo">
-                <form class="botoes">
-                    <input class="botao" type="text" placeholder="Telefone, nome de usuário ou email">
-                    <input class="botao" type="password" placeholder="Senha">
-                    <input class="botao-submit" type="submit" value="Entrar">
-                </form>
-                <div class="entrar">
-                    <div class="entrar-facebook">
-                        <i class="fab fa-facebook-square"></i>
-                        <a href="#" >Entrar com o Facebook</a>
+        <div class="conteudo">
+            <div class="imagem-celular">
+                <img src="img/instagram-celular.png" alt="">
+            </div>
+            <div class="login-conteudo">
+                <div class="login">
+                    <div class="grupo" class="entrar-email">
+                        <img id="logo" src="img/instagram-logo.png" alt="Logo instagram">
+                    <form class="botoes">
+                        <input class="botao" type="text" placeholder="Telefone, nome de usuário ou email">
+                        <input class="botao" type="password" placeholder="Senha">
+                        <input class="botao-submit" type="submit" value="Entrar">
+                    </form>
+                        <div class="entrar">
+                            <div class="entrar-facebook">
+                                <i class="fab fa-facebook-square"></i>
+                                <a a href="#" >Entrar com o Facebook</a>
+                            </div>
+                            <a id="esqueceu" href="#">Esqueceu a senha?</a>
+                        </div>
                     </div>
-                    <a id="esqueceu" href="#">Esqueceu a senha?</a>
-                </div>
+                    <div class="grupo" class="cadastro">
+                        <p>Não tem uma conta? <a href="#" id="cadastro">Cadastre-se</a></p>
+                    </div>
+                    <div class="grupo" class="download">
+                        <p>Obtenha o aplicativo.</p>
+                        <div class="app-download">
+                            <a class="app-download-play-store" href="#">
+                                <img src="img/googleplay-button.png" alt="Google play">
+                            </a>
+                            <a class="app-download-store" href="#">
+                                <img src="img/apple-button.png" alt="App store">
+                            </a>
+                        </div>
+                    </div>
+                </div>            
             </div>
-            <div class="grupo">
-                <p class="not-account">Não é gabrielcoelhox</p>
-                <p class="class notaccount">
-                    <span class="link-blue">Alternar Contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o Aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
-                </div>
-            </div>
-        </div>
+        </div>        
     </div>
+
+    <script src="https://kit.fontawesome.com/8ad07c6848.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="darkmode.js"></script>
 </body>
 </html>
