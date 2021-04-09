@@ -1,0 +1,24 @@
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: white;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    }
+    .imagem-celular{
+        display: none;
+    }
+    .login-conteudo{
+        width:100%
+    }
+
+    .grupo{
+        border: 1px solid transparent;
+    }
+}
