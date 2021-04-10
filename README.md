@@ -14,12 +14,13 @@ Nesse projeto você terá o desafio de reconstruir a página inicial de login do
 - Alteração da interface para a tela de login;
 - Adicionado darkmode;
 
-# Imagens:
+## Link
+https://gabrielcoelhox.github.io/Exercicio_Instagram/
 
-## Tela Principal:
+## Tela Principal
 
 <img src="https://i.ibb.co/NT4x0nS/img-principal.png"/>
 
-## Darkmode:
+## Darkmode
 
 <img src="https://i.ibb.co/C2ZJLMk/img-dark-mode.png"/>
