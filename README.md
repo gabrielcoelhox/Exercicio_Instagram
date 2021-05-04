@@ -19,10 +19,6 @@ Nesse projeto você terá o desafio de reconstruir a página inicial de login do
 
 https://gabrielcoelhox.github.io/Exercicio_Instagram/
 
-## Tela Principal
+## :camera: Veja
 
-<img src="https://i.ibb.co/NT4x0nS/img-principal.png"/>
-
-## Darkmode
-
-<img src="https://i.ibb.co/C2ZJLMk/img-dark-mode.png"/>
+![GIF](github/animacao.gif)
